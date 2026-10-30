@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Vancouver sewer mains</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Leaflet: the map library. Loaded from the internet, nothing to install. -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <!-- STRUCTURE: change this title to your own words in Part 8. -->
+    <h1>Vancouver sewer mains, from metres to degrees</h1>
+    <p id="status">Loading pipes...</p>
+  </header>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+<main class="story">
+  <h1>[What the map shows, in plain words]</h1>
+  <p class="lede">[Two sentences: why this matters, for this place.]</p>
+
+  <p><strong>This map is for</strong> [your audience].</p>
+  <p><strong>What you can do here:</strong> [your core action, as an instruction].</p>
+
+  <div id="map"></div>
+
+  <section class="aside">
+    <h2>Not in this iteration</h2>
+    <p>[What you cut, and why.]</p>
+    <h2>Where this comes from</h2>
+    <ul>
+      <li><a href="[dataset URL]">[Dataset title]</a>, [publisher], [licence], accessed [date]</li>
+    </ul>
+  </section>
+</main>
